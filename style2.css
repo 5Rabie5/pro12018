@@ -1,0 +1,172 @@
+@font-face { /* Define a new font called LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurve_OT-webfont.woff') format('woff'),
+         url('LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+h1 /* Use the font that you've just specified for the titles */
+{
+	
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	 text-align: center;
+	     text-shadow: 2px 2px 4px black;
+		 font-size: 3.3em
+		 
+}
+h2 
+{
+	color: red;
+	}
+
+#end
+{
+	position: absolute;
+	   left: 1300px;
+       top: 400px;
+       display:none;
+
+}
+#c1
+{
+
+
+	 position: absolute;
+	   left: 133px;
+       top: 0px;
+	 vertical-align: top;
+	width: 50px;
+	 height: 10%;
+	background-color:blue;
+	 border: 3px maroon inset; 
+	 margin-top:0px;
+	 box-shadow: 0px 2px 5px #1c1a19;
+	 border-radius: 0px 0px 5px 5px;
+
+}
+#fox
+{
+	position: absolute;
+	   left: 800px;
+       top: 400px;
+
+}	
+#rabbit
+{
+	position: absolute;
+	   left: 700px;
+       top: 400px;
+
+}		
+p 
+{
+  
+	 text-align: center;
+	 color:maroon ;
+	 font-size: 2em
+	 
+		
+}
+a 
+{
+  
+	   opacity: 0.8;
+	  
+}
+body
+{
+	background-image:url("background.png");
+}
+
+
+aside
+{
+	float:left;	 
+	 display: inline-block;
+	 position: absolute;
+	   left: 0px;
+       top: 0px;
+	 vertical-align: top;
+	width: 150px;
+	 height: 100%;
+	background-color:maroon;
+	 border: 3px maroon inset; 
+	 margin-top:0px;
+	 box-shadow: 0px 2px 5px #1c1a19;
+	 border-radius: 0px 0px 5px 5px;
+}
+
+@media all and (max-device-width:400px)
+{
+   h1  
+{
+	
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	 text-align: left;
+	     text-shadow: 2px 2px 4px black;
+		 font-size: 1.8em
+		 margin-left: 33px;
+}
+  #experience 
+{
+	display: block;
+	  	 width:90%;
+	
+	 margin-left: 10px;
+}
+		 
+  #education 
+{
+	display: block;
+	  	 width:90%;
+	
+	 margin-left: 10px;
+}
+  #skills 
+{
+	display: block;
+	  	 width:90%;
+	
+	 margin-left: 10px;
+}
+		 
+h2 
+{
+	color: blue;
+	font-size: 1.8em 
+	
+	
+	}
+	
+   
+
+	
+p 
+{
+  
+	 text-align: center;
+	 color:maroon ;
+	 font-size: 1.4em;
+	  width:40%;
+		margin-left: 33px;
+}
+img
+{
+	 position: absolute;
+	   right: 0px;
+       top: 0px;
+	  border: 1px blue inset;
+	  box-shadow: 2px 2px 4px black;
+	  width:20%;
+}
+aside
+{
+	width: 0px;
+	 height: 0px;
+	 display:none;
+}
+
+
+}

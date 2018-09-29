@@ -1,0 +1,321 @@
+@font-face { /* Define a new font called LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurve_OT-webfont.woff') format('woff'),
+         url('LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+a:link {
+    text-decoration: none;
+     color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+a:hover {
+    text-decoration: underline;
+}
+#Hungry
+{
+
+     color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blue;
+ font-size: 1.1em
+
+}
+#pic{
+
+position: relative;
+top: 270px;
+
+
+}
+#pic2{
+position: relative;
+
+}
+#ALLTxt
+{
+position: relative;
+height: 380px;
+text-align: center;
+
+
+transform: translate(0%, -10%);
+}
+#main
+{
+transform: translate(0%, 540%);	
+color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+h1  
+{
+	
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	 text-align: center;
+	     text-shadow: 2px 2px 4px black;
+		 font-size: 3.3em
+
+		 
+}
+#start
+{
+width: 100%;
+height: 100%;
+display: block;
+
+}
+
+
+
+#txt{
+
+font-size: 6.3em
+color: blue;
+position: absolute; 
+left:30%;
+
+	 text-align: center;
+top: 10%;
+
+	
+}
+h2 
+{
+	color: red;
+	
+	}
+
+#end
+{
+	position: absolute; 
+	right: 20px;
+
+transform: translate(-50%, -50%);
+}
+#c1
+{
+
+
+	 position: absolute;
+	   left: 133px;
+       top: 0px;
+	 vertical-align: top;
+	width: 50px;
+	 height: 10%;
+	background-color:blue;
+	 border: 3px maroon inset; 
+	 margin-top:0px;
+	 box-shadow: 0px 2px 5px #1c1a19;
+	 border-radius: 0px 0px 5px 5px;
+	 
+
+}
+#fox
+{
+	position: absolute; 
+	left: 10%; 
+       top: -50%;  
+transform: translate(-50%, -50%);
+}	
+#fox2
+{
+	position: absolute; 
+	left: 10%; 
+       display:none;
+       top: -50%; 
+       transform: translate(-50%, -50%);
+
+}	
+#fox3
+{
+	position: absolute; 
+	 left: 10%;   
+       display:none;
+       transform: translate(-50%, -50%);
+       
+
+}	
+.fox4
+{
+
+position: absolute; 
+	 left: 50%;   
+       display:;
+       transform: translate(-150%, -70%);
+width:150px;
+height:150px;
+}
+
+#rabbit
+{
+position: absolute; 
+	left: 30%;   
+transform: translate(-50%, -50%);
+}		
+p
+{
+  
+	 text-align: center;
+	 color:maroon ;
+	 font-size: 2em
+	 
+	 
+		
+}
+a 
+{
+  
+	   opacity: 0.8;
+	  
+	  
+}
+body
+{
+	 
+
+      background: url("bg.jpg") no-repeat center fixed; 
+    background-size: cover;
+
+}
+
+ #txtEnd
+{
+
+ 
+display:none;
+   color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ position: absolute; 
+	
+transform: translate(50%, 100%);
+}
+ #txtEndR
+{
+
+ 
+display:none;
+
+position: absolute; 
+	right: 20px;
+top: -130px;
+transform: translate(-50%, -50%);
+   color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ 
+}
+ #wrong
+{
+
+ 
+position: absolute;
+transform: translate(-50%, -50%);
+        color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	right: 60%;
+top: 50%;
+
+}
+#Corect 
+{
+
+ 
+position: absolute;
+	 transform: translate(-50%, -50%);
+            color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;  
+	right: 40%;
+top: 50%;
+}
+aside
+{
+	float:left;	 
+	 display: inline-block;
+	 position: absolute;
+	   left: 0px;
+       top: 0px;
+	 vertical-align: top;
+	width: 150px;
+	 height: 100%;
+	background-color:maroon;
+	 border: 3px maroon inset; 
+	 margin-top:0px;
+	 box-shadow: 0px 2px 5px #1c1a19;
+	 border-radius: 0px 0px 5px 5px;
+	
+}
+
+@media all and (max-device-width:400px)
+{
+   h1  
+{
+	
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	 text-align: left;
+	     text-shadow: 2px 2px 4px black;
+		 font-size: 1.8em
+		 margin-left: 33px;
+}
+  #experience 
+{
+	display: block;
+	  	 width:90%;
+	
+	 margin-left: 10px;
+}
+		 
+  #education 
+{
+	display: block;
+	  	 width:90%;
+	
+	 margin-left: 10px;
+}
+  #skills 
+{
+	display: block;
+	  	 width:90%;
+	
+	 margin-left: 10px;
+}
+		 
+h2 
+{
+	color: blue;
+	font-size: 1.8em 
+	
+	
+	}
+	
+   
+
+	
+p 
+{
+  
+	 text-align: center;
+	 color:maroon ;
+	 font-size: 1.4em;
+	  width:40%;
+		margin-left: 33px;
+}
+img
+{
+	 position: absolute;
+	   right: 0px;
+       top: 0px;
+	  border: 1px blue inset;
+	  box-shadow: 2px 2px 4px black;
+	  width:20%;
+}
+aside
+{
+	width: 0px;
+	 height: 0px;
+	 display:none;
+}
+
+
+}
